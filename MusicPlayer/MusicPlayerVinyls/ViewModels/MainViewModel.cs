@@ -26,6 +26,20 @@ namespace MusicPlayerVinyls.ViewModels
 
             Albums = new ObservableRangeCollection<Album>();
 
+
+            Albums.Add(new Album()
+            {
+                AlbumName = "Los Karkis",
+                ArtistName = "Daniel (Miko Mandante)",
+                AlbumArt = "https://www.buenamusica.com/media/fotos/cantantes/biografia/los-karkiks.jpg",
+                AlbumNotes = "The Number of the Beast is the third studio album by English heavy metal band Iron Maiden. It was released on 22 March 1982 in the United Kingdom by EMI Records and in the United States by Harvest and Capitol Records. The album was their first to feature vocalist Bruce Dickinson and their last with drummer Clive Burr.",
+                AlbumYear = "2001",
+                Duration = "45",
+                Rating = 4.9,
+                SongCount = 15,
+                Tags = new List<Tag>() { new Tag { Name = "Cumbia, Chicheras " } }
+            });
+
             Albums.Add(new Album()
             {
                 AlbumName = "Horses",
@@ -67,18 +81,6 @@ namespace MusicPlayerVinyls.ViewModels
                 Tags = new List<Tag>() { new Tag { Name = "Heavy Metal" } }
             });
 
-            Albums.Add(new Album()
-            {
-                AlbumName = "The Number of the Beast",
-                ArtistName = "Iron Maiden",
-                AlbumArt = "https://upload.wikimedia.org/wikipedia/en/3/32/IronMaiden_NumberOfBeast.jpg",
-                AlbumNotes = "The Number of the Beast is the third studio album by English heavy metal band Iron Maiden. It was released on 22 March 1982 in the United Kingdom by EMI Records and in the United States by Harvest and Capitol Records. The album was their first to feature vocalist Bruce Dickinson and their last with drummer Clive Burr.",
-                AlbumYear = "1982",
-                Duration = "39",
-                Rating = 2.5,
-                SongCount = 8,
-                Tags = new List<Tag>() { new Tag { Name = "Heavy Metal" } }
-            });
         }
 
         private void T_Elapsed(object sender, ElapsedEventArgs e)

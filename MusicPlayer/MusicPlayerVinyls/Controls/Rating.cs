@@ -15,8 +15,6 @@ namespace MusicPlayerVinyls.Controls
 
         SKPaint foregroundPaint;
 
-
-
         public Rating()
         {
             itemPath = SKPath.ParseSvgPathData(starPath);

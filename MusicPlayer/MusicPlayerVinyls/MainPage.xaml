@@ -14,77 +14,7 @@
         <viewModels:MainViewModel />
     </ContentPage.BindingContext>
 
-    <ContentPage.Resources>
-        <!--<ResourceDictionary>
-
-            <converters:RatioConverter
-                x:Key="vinylTranslation"
-                Default="50"
-                Inverted="True"
-                Max="50"
-                Min="0"
-                Ratio=".5"
-                UseAbsolute="True" />
-
-            <converters:RatioConverter
-                x:Key="vinylRotation"
-                Default="0"
-                Inverted="True"
-                Max="50"
-                Min="-50"
-                Ratio="1"
-                UseAbsolute="True" />
-
-
-            <converters:RatioConverter
-                x:Key="albumTranslation"
-                Default="-50"
-                Inverted="True"
-                Max="0"
-                Min="-50"
-                Ratio="-.5"
-                UseAbsolute="True" />
-
-            <converters:RatioConverter
-                x:Key="albumScaleTranslation"
-                Default="1.1"
-                Inverted="True"
-                Max="1.1"
-                Min="1"
-                Ratio=".005"
-                UseAbsolute="True" />
-
-            <converters:RatioConverter
-                x:Key="panelTranslation"
-                Default="0"
-                Max="150"
-                Min="-150"
-                Ratio="1" />
-
-            <converters:RatioConverter
-                x:Key="panelRotationTranslation"
-                Default="0"
-                Inverted="True"
-                Max="10"
-                Min="-10"
-                Ratio=".1" />
-
-            <converters:RatioConverter
-                x:Key="panelScaleTranslation"
-                Default="1"
-                Inverted="True"
-                Max="1"
-                Min=".5"
-                Ratio=".001"
-                UseAbsolute="True" />
-
-
-
-
-
-
-        </ResourceDictionary>-->
-    </ContentPage.Resources>
+  
 
     <Grid RowDefinitions="AUTO, AUTO, .3*, 10, .6*, 60" RowSpacing="0">
 
