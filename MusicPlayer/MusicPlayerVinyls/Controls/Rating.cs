@@ -115,7 +115,6 @@ namespace MusicPlayerVinyls.Controls
         }
 
         
-
         private void DrawItems(SKCanvas canvas, SKImageInfo info, SKPaint paint)
         {
             // calculate the size of an indidual item (considering spacing)

@@ -34,7 +34,6 @@ namespace MusicPlayerVinyls.Controls
             this.PaintSurface += CircularProgress_PaintSurface;
         }
 
-
         public static readonly BindableProperty ValueProperty = BindableProperty.Create(
                                         propertyName: nameof(Value),
                                         returnType: typeof(float),
@@ -71,9 +70,6 @@ namespace MusicPlayerVinyls.Controls
             get { return (float)GetValue(StrokeWidthProperty); }
             set { SetValue(StrokeWidthProperty, value); }
         }
-
-
-
 
         private void CircularProgress_PaintSurface(object sender, SKPaintSurfaceEventArgs e)
         {
